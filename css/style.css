@@ -1,0 +1,217 @@
+
+body {
+    max-width: 1280px;
+}
+
+.inline-block {
+display: inline-block;
+vertical-align: top;
+outline: 1px solid red
+}
+.logo {
+    width: 20vw;
+    padding-left: 5vw;
+    outline: 1px solid red
+    }
+
+nav {
+    width: 100%;
+    padding: 1%;
+    background-color: whitesmoke;
+    outline: 1px solid red
+    }
+ul {
+    font-family: 'Audiowide', cursive;
+    width: 50vw;
+    float: right;  
+    text-align: right; 
+    padding-right: 5vw;
+    outline: 1px solid red
+}
+.bgImg {
+    background-image: url("https://d2v9ipibika81v.cloudfront.net/uploads/sites/32/2016/03/Flags-usbr-fade-e1456924857784.png");
+    padding: 5vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: ;
+    outline: 2px solid blue;
+}
+
+.heroImg {
+    height: 600px;
+    padding: 10px;
+    outline: 1px solid red
+}
+
+.likeIcon {
+    width: 50px;
+    height: 50px;
+}
+
+.content {
+    width: 500px;
+    margin: 0 auto;
+    outline: 1px solid red
+}
+footer {
+  background-color: white;
+  outline: 1px solid red 
+}
+
+#bertaPhoto {
+    width: 45%;
+    height: 45%;
+    outline: 1px solid red
+}
+
+li {
+    padding: 1%;
+    vertical-align: top;
+    color: black;
+    outline: 1px solid red
+}
+
+.ulFooter {
+    display: inline-block;
+    vertical-align: top;
+    padding: 1%;
+    outline: 1px solid red
+}
+/*    JAN 15 2021 HW 18     */
+
+p,
+button,
+h1,
+h2,
+h3,
+h4  {
+    font-family: 'Montserrat', sans-serif;
+    outline: 1px solid red;
+}
+
+.flexContainer {
+    display: flex;
+    margin: 0 auto;
+    width: 90%;
+    outline: 1px solid red
+}
+
+.skill1,
+.skill2,
+.skill3 {
+    width: 33%;
+    margin: 1%;
+    padding: 3%;
+    outline: 1px solid red
+}
+.projectsGrid {
+    display: flex;
+    margin: 0 auto;
+    width: 90%;
+    outline: 1px solid red
+}
+
+.skill1,
+.skill2,
+.skill3 {
+    width: 33%;
+    margin: 1%;
+    padding: 3%;
+    outline: 1px solid red
+}
+
+.mySkills{
+    margin: 5vw;
+    outline: 1px solid red
+}
+
+.myProjects {
+    margin: 5vw;
+    outline: 1px solid red;
+}
+.projectsGrid {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-areas: 
+    "a"
+    "b"
+    "c";
+    outline: 1px solid red;
+}
+.ex1,
+.ex2,
+.ex3 {
+    display: grid;
+    grid-template-areas:
+    "a b";
+    grid-column: 1fr;
+    outline: 1px solid red;
+}
+.leftImg,
+.leftImg2,
+.leftImg3 {
+    grid-row-start: a-start;
+    grid-column: 1fr;
+    outline: 1px solid red;
+}
+.rightContent {
+    grid-row-end: a-end;
+    grid-column: 1fr;
+    outline: 1px solid red;
+}
+.img {
+    width: 30vw;
+}
+.skillImg {
+    width: 10vw;
+    align-items: center;
+}
+/*  jan 19 tutor  */
+.linkedinIcon {
+    cursor: pointer;
+}
+/* jan 25 solo hw 18 */
+@media only screen and (max-width: 600px) {
+    .flexContainer {
+        display: flex;
+        flex-direction: column;
+    }
+    .skill1 {
+        width: 100%;
+    }
+    .skill2 {
+        width: 100%;
+    }
+    .skill3 {
+        width: 100%;
+    }
+    .ex1 {
+        display: grid;
+        grid-template-rows: repeat(1, 1fr);
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-areas: 
+        "leftImg"
+        "rightContent";
+        outline: 1px solid red;
+    }
+    .ex2 {
+        display: grid;
+        grid-template-rows: repeat(1, 1fr);
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-areas: 
+        "leftImg2"
+        "rightContent2";
+        outline: 1px solid red;
+    }
+    .ex3 {
+        display: grid;
+        grid-template-rows: repeat(1, 1fr);
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-areas: 
+        "leftImg3"
+        "rightContent3";
+        outline: 1px solid red;
+    }
+
+}
