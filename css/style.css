@@ -29,11 +29,10 @@ ul {
     outline: 1px solid red
 }
 .bgImg {
-    background-image: url("https://d2v9ipibika81v.cloudfront.net/uploads/sites/32/2016/03/Flags-usbr-fade-e1456924857784.png");
+    background-image: url("../images/flags_background.png");
     padding: 5vw;
     background-size: cover;
     background-repeat: no-repeat;
-    opacity: ;
     outline: 2px solid blue;
 }
 
