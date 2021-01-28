@@ -6,19 +6,19 @@ body {
 .inline-block {
 display: inline-block;
 vertical-align: top;
-outline: 1px solid red
+outline: 1px solid red;
 }
 .logo {
     width: 20vw;
     padding-left: 5vw;
-    outline: 1px solid red
+    outline: 1px solid red;
     }
 
 nav {
     width: 100%;
     padding: 1%;
     background-color: whitesmoke;
-    outline: 1px solid red
+    outline: 1px solid red;
     }
 ul {
     font-family: 'Audiowide', cursive;
@@ -39,8 +39,14 @@ ul {
 .heroImg {
     height: 600px;
     padding: 10px;
-    outline: 1px solid red
-}
+    outline: 1px solid red;
+    }
+
+    .overlay {
+        background: rgba(0, 0, 0, 0.6);
+        height: 600px;
+        width: 100%;
+    }
 
 .likeIcon {
     width: 50px;
@@ -50,31 +56,31 @@ ul {
 .content {
     width: 500px;
     margin: 0 auto;
-    outline: 1px solid red
-}
+    outline: 1px solid red;
+    }
 footer {
   background-color: white;
-  outline: 1px solid red 
+  outline: 1px solid red; 
 }
 
 #bertaPhoto {
     width: 45%;
     height: 45%;
-    outline: 1px solid red
+    outline: 1px solid red;
 }
 
 li {
     padding: 1%;
     vertical-align: top;
     color: black;
-    outline: 1px solid red
+    outline: 1px solid red;
 }
 
 .ulFooter {
     display: inline-block;
     vertical-align: top;
     padding: 1%;
-    outline: 1px solid red
+    outline: 1px solid red;
 }
 /*    JAN 15 2021 HW 18     */
 
@@ -92,7 +98,7 @@ h4  {
     display: flex;
     margin: 0 auto;
     width: 90%;
-    outline: 1px solid red
+    outline: 1px solid red;
 }
 
 .skill1,
@@ -101,13 +107,13 @@ h4  {
     width: 33%;
     margin: 1%;
     padding: 3%;
-    outline: 1px solid red
+    outline: 1px solid red;
 }
 .projectsGrid {
     display: flex;
     margin: 0 auto;
     width: 90%;
-    outline: 1px solid red
+    outline: 1px solid red;
 }
 
 .skill1,
@@ -116,12 +122,12 @@ h4  {
     width: 33%;
     margin: 1%;
     padding: 3%;
-    outline: 1px solid red
+    outline: 1px solid red;
 }
 
 .mySkills{
     margin: 5vw;
-    outline: 1px solid red
+    outline: 1px solid red;
 }
 
 .myProjects {
@@ -213,4 +219,10 @@ h4  {
         outline: 1px solid red;
     }
 
+}
+/* jan 28 - tutor - hw 19 */
+.dropdown-menu {
+    display: none;
+    list-style: none;
+    background-color: white;
 }

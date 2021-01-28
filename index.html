@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
     <link rel="styleSheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <title>Berta Oliveira Portfolio</title>
 </head>
 <body>
@@ -22,14 +23,24 @@
                 <li class="inline-block linkedIcon"><a href="https://www.linkedin.com/in/bertaoliveira/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
                 <li class="inline-block">Portfolio</li>
                 <li class="inline-block"><a href="about.html">Me :)</a></li>
-                <li class="inline-block"><a href="projects.html">Projects</a></li>
+                <li class="inline-block"><a class="projects" href="projects.html">Projects</a></li>
                 <li class="inline-block"><a href="contact.html">Let's Talk!</a></li>
                 </ul>    
         </nav>
+        <li class="dropdown">
+            <ul class="dropdown-menu" role="menu">
+                <li>Elevate 1 Life</li>
+                <li>Dep. of Education</li>
+                <li>Support Local Mobile App</li>
+                <li>MamaDuck Travel App</li>
+                <li>Next Project</li>
+            </ul>
+        </li>
     </header>
-    <section class="heroImg">
+    <section class="heroImg">  
         <div class="bgImg">
-        <div class="content">
+            <div class="overlay">
+            <div class="content">
             <img id="bertaPhoto" src="images/berta_photo.png">
             <p>
                 Hello, I'm Berta! User Experience & Interface Designer looking for the WHY of all things. 
@@ -40,6 +51,7 @@ My goal is to help you conquer all possible <img class="likeIcon" src="images/li
             <button>Download Resume</button>
         </div>
         </div>
+    </div>
     </section>
 <!-- JAN 15 2021 HOMEWORK 18 -->
 
@@ -111,11 +123,12 @@ My goal is to help you conquer all possible <img class="likeIcon" src="images/li
         <!-- <ul class="ulFooter">
             <li class="inline-block">Portfolio</li>
             <li class="inline-block">Me :)</li>
-            <li class="inline-block">My Work</li>
+            <li class="inline-block">Projects</li>
             <li class="inline-block">Let's Talk!</li>
         </ul> -->
     </footer>
     
 </body>
 <script src="./javascript/main.js"></script>
+
 </html>
